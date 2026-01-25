@@ -1,55 +1,40 @@
-import { NextResponse } from 'next/server'
-import { createSupabaseServerClient } from '../../lib/supabaseServer'
-import { getUser } from '../../lib/getUser'
+import { prisma } from "../../lib/db";
+import { badRequest, forbidden, json, unauthorized } from "../../lib/http";
+import { assertRole, requireAuth } from "../../lib/auth";
+import { createHomeSchema } from "../../lib/validators";
 
 export async function GET(req: Request) {
-  const supabase = await createSupabaseServerClient()
+  const { searchParams } = new URL(req.url);
+  const city = searchParams.get("city") || undefined;
+  const take = Math.min(Number(searchParams.get("take") || 30), 100);
 
-  const { searchParams } = new URL(req.url)
+  const homes = await prisma.home.findMany({
+    where: city ? { city } : undefined,
+    orderBy: { createdAt: "desc" },
+    take,
+    include: {
+      landlord: { select: { id: true, email: true, profile: true } },
+    },
+  });
 
-  const city = searchParams.get('city')
-  const minPrice = searchParams.get('minPrice')
-  const maxPrice = searchParams.get('maxPrice')
-  const page = Number(searchParams.get('page') || 1)
-  const limit = Number(searchParams.get('limit') || 10)
-
-  let query = supabase.from('homes').select('*, home_preferences(*)')
-
-  if (city) query = query.eq('city', city)
-  if (minPrice) query = query.gte('price', Number(minPrice))
-  if (maxPrice) query = query.lte('price', Number(maxPrice))
-
-  const from = (page - 1) * limit
-  const to = from + limit - 1
-
-  const { data, error } = await query.range(from, to)
-
-  if (error) {
-    return NextResponse.json({ error: error.message }, { status: 400 })
-  }
-
-  return NextResponse.json(data)
+  return json({ homes });
 }
 
 export async function POST(req: Request) {
-  const supabase = await createSupabaseServerClient()
-  const user = await getUser()
+  const session = await requireAuth();
+  if (!session) return unauthorized();
+  if (!assertRole(session, ["LANDLORD"])) return forbidden("Only landlords can create homes");
 
-  if (!user) {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-  }
+  const body = await req.json().catch(() => null);
+  const parsed = createHomeSchema.safeParse(body);
+  if (!parsed.success) return badRequest("Invalid payload", parsed.error.flatten());
 
-  const body = await req.json()
+  const home = await prisma.home.create({
+    data: {
+      landlordId: session.sub,
+      ...parsed.data,
+    },
+  });
 
-  const { data, error } = await supabase
-    .from('homes')
-    .insert([{ landlord_id: user.id, ...body }])
-    .select()
-    .single()
-
-  if (error) {
-    return NextResponse.json({ error: error.message }, { status: 400 })
-  }
-
-  return NextResponse.json(data)
+  return json({ home }, { status: 201 });
 }
