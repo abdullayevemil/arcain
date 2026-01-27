@@ -1,53 +1,40 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { useState } from "react";
 import { Button } from "../../components/ui/button";
 import { cn } from "@/lib/utils";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
+import Baku from "../../assets/cities/baku.webp";
+import Ganja from "../../assets/cities/ganja.jpg";
+import Sumqait from "../../assets/cities/sumqait.jpg";
 
 const countries = [
+  { name: "Azerbaijan", flag: "🇦🇿" },
+  { name: "Turkey", flag: "🇹🇷" },
+  { name: "Hungary", flag: "🇭🇺" },
+  { name: "Russia", flag: "🇷🇺" },
   { name: "United Kingdom", flag: "🇬🇧" },
-  { name: "Australia", flag: "🇦🇺" },
-  { name: "Ireland", flag: "🇮🇪" },
-  { name: "United States", flag: "🇺🇸" },
-  { name: "Canada", flag: "🇨🇦" },
   { name: "Germany", flag: "🇩🇪" },
-  { name: "Spain", flag: "🇪🇸" },
-  { name: "New Zealand", flag: "🇳🇿" },
-  { name: "France", flag: "🇫🇷" },
-  { name: "Singapore", flag: "🇸🇬" },
 ];
 
-const citiesByCountry: Record<string, { name: string; image: string }[]> = {
-  "United Kingdom": [
-    { name: "London", image: "/cities/london.jpg" },
-    { name: "Leicester", image: "/cities/leicester.jpg" },
-    { name: "Liverpool", image: "/cities/liverpool.jpg" },
-    { name: "Sheffield", image: "/cities/sheffield.jpg" },
-    { name: "Newcastle Upon Tyne", image: "/cities/newcastle.jpg" },
-    { name: "Cardiff", image: "/cities/cardiff.jpg" },
-    { name: "Birmingham", image: "/cities/birmingham.jpg" },
-    { name: "Nottingham", image: "/cities/nottingham.jpg" },
-    { name: "Coventry", image: "/cities/coventry.jpg" },
-    { name: "Leeds", image: "/cities/leeds.jpg" },
-    { name: "Manchester", image: "/cities/manchester.jpg" },
-    { name: "Swansea", image: "/cities/swansea.jpg" },
+const citiesByCountry: Record<string, { name: string; image: StaticImageData }[]> = {
+  Azerbaijan: [
+    { name: "Baku", image: Baku },
+    { name: "Ganja", image: Ganja },
+    { name: "Sumgait", image: Sumqait },
   ],
-  Australia: [
-    { name: "Sydney", image: "/cities/sydney.jpg" },
-    { name: "Melbourne", image: "/cities/melbourne.jpg" },
-    { name: "Brisbane", image: "/cities/brisbane.jpg" },
-  ],
-  Ireland: [
-    { name: "Dublin", image: "/cities/dublin.jpg" },
-    { name: "Cork", image: "/cities/cork.jpg" },
-  ],
+
+  Turkey: [],
+  Hungary: [],
+  Russia: [],
+  "United Kingdom": [],
+  Germany: [],
 };
 
 export default function PopularCities() {
-  const [activeCountry, setActiveCountry] = useState("United Kingdom");
+  const [activeCountry, setActiveCountry] = useState("Azerbaijan");
 
   const cities = citiesByCountry[activeCountry] || [];
 
@@ -84,23 +71,28 @@ export default function PopularCities() {
 
       <div className="relative">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
-          {cities.map((city) => (
-            <Link href="/"
-              key={city.name}
-              className="relative h-44 rounded-xl overflow-hidden group cursor-pointer"
-            >
-              <Image
-                src={city.image}
-                alt={city.name}
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
-              <span className="absolute bottom-3 left-3 text-white font-medium text-sm">
-                {city.name}
-              </span>
-            </Link>
-          ))}
+          {cities.length > 0 ? (
+            cities.map((city) => (
+              <Link
+                href="/"
+                key={city.name}
+                className="relative h-44 rounded-xl overflow-hidden group cursor-pointer"
+              >
+                <Image
+                  src={city.image}
+                  alt={city.name}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <span className="absolute bottom-3 left-3 text-white font-medium text-sm">
+                  {city.name}
+                </span>
+              </Link>
+            ))
+          ) : (
+            <div>Coming soon</div>
+          )}
         </div>
 
         <button className="absolute right-[-20px] top-1/2 -translate-y-1/2 bg-white border border-neutral-200 shadow-sm rounded-full w-10 h-10 flex items-center justify-center hover:bg-neutral-100">
