@@ -3,8 +3,7 @@ import path from "path";
 import type { House, City, User } from "@/types";
 
 const dataDir = path.join(process.cwd(), "src/data");
-
-let usersMemory: User[] | null = null;
+const usersTmpPath = "/tmp/users.json";
 
 export async function readHouses(): Promise<House[]> {
   const filePath = path.join(dataDir, "houses.json");
@@ -37,17 +36,16 @@ export async function writeCities(cities: City[]): Promise<void> {
 }
 
 export async function readUsers(): Promise<User[]> {
-  if (usersMemory !== null) return usersMemory;
-  const filePath = path.join(dataDir, "users.json");
-  const data = await fs.readFile(filePath, "utf-8");
-  return JSON.parse(data);
+  try {
+    const data = await fs.readFile(usersTmpPath, "utf-8");
+    return JSON.parse(data);
+  } catch {
+    const filePath = path.join(dataDir, "users.json");
+    const data = await fs.readFile(filePath, "utf-8");
+    return JSON.parse(data);
+  }
 }
 
 export async function writeUsers(users: User[]): Promise<void> {
-  try {
-    const filePath = path.join(dataDir, "users.json");
-    await fs.writeFile(filePath, JSON.stringify(users, null, 2), "utf-8");
-  } catch {
-    usersMemory = users;
-  }
+  await fs.writeFile(usersTmpPath, JSON.stringify(users, null, 2), "utf-8");
 }
