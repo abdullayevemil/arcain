@@ -35,17 +35,35 @@ export async function writeCities(cities: City[]): Promise<void> {
   }
 }
 
+function mergeUsersByEmail(fileUsers: User[], tmpUsers: User[]): User[] {
+  const byEmail = new Map<string, User>();
+  for (const u of fileUsers) byEmail.set(u.email.toLowerCase(), u);
+  for (const u of tmpUsers) byEmail.set(u.email.toLowerCase(), u);
+  return Array.from(byEmail.values());
+}
+
 export async function readUsers(): Promise<User[]> {
+  const filePath = path.join(dataDir, "users.json");
+  const data = await fs.readFile(filePath, "utf-8");
+  const fileUsers: User[] = JSON.parse(data);
   try {
-    const data = await fs.readFile(usersTmpPath, "utf-8");
-    return JSON.parse(data);
+    const tmpData = await fs.readFile(usersTmpPath, "utf-8");
+    const tmpUsers: User[] = JSON.parse(tmpData);
+    return mergeUsersByEmail(fileUsers, tmpUsers);
   } catch {
-    const filePath = path.join(dataDir, "users.json");
-    const data = await fs.readFile(filePath, "utf-8");
-    return JSON.parse(data);
+    return fileUsers;
   }
 }
 
 export async function writeUsers(users: User[]): Promise<void> {
-  await fs.writeFile(usersTmpPath, JSON.stringify(users, null, 2), "utf-8");
+  const filePath = path.join(dataDir, "users.json");
+  let fileUsers: User[];
+  try {
+    const data = await fs.readFile(filePath, "utf-8");
+    fileUsers = JSON.parse(data);
+  } catch {
+    fileUsers = [];
+  }
+  const merged = mergeUsersByEmail(fileUsers, users);
+  await fs.writeFile(usersTmpPath, JSON.stringify(merged, null, 2), "utf-8");
 }

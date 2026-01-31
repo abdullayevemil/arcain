@@ -12,7 +12,10 @@ export async function POST(request: NextRequest) {
     const users = await readUsers();
     const user = users.find((u: User) => u.email === email && u.password === password);
     if (!user) {
-      return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
+      return NextResponse.json(
+        { error: "Invalid credentials. If you just registered, try again or use a persistent database for production." },
+        { status: 401 }
+      );
     }
     const { password: _, ...safeUser } = user;
     return NextResponse.json({ user: safeUser });
