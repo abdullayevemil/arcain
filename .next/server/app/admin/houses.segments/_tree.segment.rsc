@@ -1,0 +1,12 @@
+:HL["/_next/static/chunks/b2bd9e2f5995a35d.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800","image"]
+:HL["https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800","image"]
+:HL["https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800","image"]
+:HL["https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800","image"]
+:HL["https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800","image"]
+:HL["https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800","image"]
+:HL["https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800","image"]
+:HL["https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800","image"]
+0:{"buildId":"rY3fLsGD_S6QWNBTgNyQT","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"admin","paramType":null,"paramKey":"admin","hasRuntimePrefetch":false,"slots":{"children":{"name":"houses","paramType":null,"paramKey":"houses","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

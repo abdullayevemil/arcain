@@ -1,0 +1,34 @@
+# Node dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# pnpm lockfile
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+.out/
+lib/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
