@@ -5,7 +5,10 @@
     "city": "baku",
     "price": 650,
     "rooms": 1,
-    "images": ["https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800", "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800"],
+    "images": [
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958454/43436_4ot8EXD9fkMOShxG7OfCuQ_g550vm.jpg",
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958453/7543_LsoKdtwO-9AGHo3fra0Wsw_tflgtw.jpg"
+    ],
     "rating": 4.7,
     "description": "Bright studio apartment in Narimanov. Close to metro and universities. Fully furnished with WiFi.",
     "roommateFriendly": false,
@@ -20,9 +23,12 @@
     "id": "2",
     "title": "Spacious 2+1 Near Flame Towers",
     "city": "baku",
-    "price": 950,
+    "price": 480,
     "rooms": 2,
-    "images": ["https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800", "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800"],
+    "images": [
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958453/4513_SdFmiiX51JZHxZnCDO0xMg-2_c8radh.jpg",
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958453/7543_LsoKdtwO-9AGHo3fra0Wsw_tflgtw.jpg"
+    ],
     "rating": 4.9,
     "description": "New build 2+1 with views. Walking distance to landmarks. Ideal for students sharing.",
     "roommateFriendly": true,
@@ -37,9 +43,11 @@
     "id": "3",
     "title": "Cozy 1+1 in Yasamal",
     "city": "baku",
-    "price": 480,
+    "price": 510,
     "rooms": 1,
-    "images": ["https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800"],
+    "images": [
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958453/60582_swa75dm4AWxu7bSwxDn7iQ_zlyznw.jpg"
+    ],
     "rating": 4.2,
     "description": "Quiet apartment in Yasamal. Old building, recently renovated. Good transport links.",
     "roommateFriendly": false,
@@ -54,9 +62,12 @@
     "id": "4",
     "title": "Family House with Garden in Sabunchu",
     "city": "baku",
-    "price": 1200,
+    "price": 790,
     "rooms": 4,
-    "images": ["https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800", "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800"],
+    "images": [
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958453/4513_SdFmiiX51JZHxZnCDO0xMg_jdwmum.jpg",
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958453/60582_swa75dm4AWxu7bSwxDn7iQ_zlyznw.jpg"
+    ],
     "rating": 4.6,
     "description": "Large house with private garden. Perfect for a group of students. Parking available.",
     "roommateFriendly": true,
@@ -71,9 +82,11 @@
     "id": "5",
     "title": "New Built Studio in Nizami",
     "city": "baku",
-    "price": 720,
+    "price": 620,
     "rooms": 1,
-    "images": ["https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800"],
+    "images": [
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958752/4480_LxtK6sDRS7ws6QOJ7zfqNQ_c5sslm.jpg"
+    ],
     "rating": 4.8,
     "description": "Brand new studio in Nizami district. Modern finishes, concierge. Near universities.",
     "roommateFriendly": false,
@@ -90,7 +103,9 @@
     "city": "baku",
     "price": 550,
     "rooms": 2,
-    "images": ["https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800"],
+    "images": [
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958752/95516_y4i_EqInEdGBJXlJWAbnoA_kdfuys.jpg"
+    ],
     "rating": 3.9,
     "description": "Affordable 2+1 in Khatai. No renovation but well maintained. Budget-friendly option.",
     "roommateFriendly": true,
@@ -105,9 +120,12 @@
     "id": "7",
     "title": "Penthouse Studio in Narimanov",
     "city": "baku",
-    "price": 1100,
+    "price": 820,
     "rooms": 1,
-    "images": ["https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800", "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800"],
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800"
+    ],
     "rating": 4.9,
     "description": "Top floor studio with panoramic city views. New build, fully renovated. Premium location.",
     "roommateFriendly": false,
@@ -120,15 +138,18 @@
   },
   {
     "id": "8",
-    "title": "3-Room Flat in Surakhani",
+    "title": "3-Room house in Surakhani",
     "city": "baku",
     "price": 680,
     "rooms": 3,
-    "images": ["https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800"],
+    "images": [
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958752/46957_A90HhLHXuDBr3fGdOIPkOQ_ga0adc.jpg",
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958752/80137_hloebQQBe0NiGlbarKTsrg_q1ptck.jpg"
+    ],
     "rating": 4.3,
-    "description": "Spacious 3-room flat. Old building, renovated interior. Calm area, good for students.",
+    "description": "Spacious 3-room house. Old building, renovated interior. Calm area, good for students.",
     "roommateFriendly": true,
-    "type": "flat",
+    "type": "house",
     "builtType": "old",
     "address": "Surakhani",
     "renovated": true,
@@ -139,11 +160,13 @@
     "id": "9",
     "title": "Small House in Binagadi",
     "city": "baku",
-    "price": 820,
+    "price": 420,
     "rooms": 2,
-    "images": ["https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800"],
+    "images": [
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958454/60564_kcws0aSyHDK1EFaYxFoJlw_da2xd1.jpg"
+    ],
     "rating": 4.4,
-    "description": "Two-storey small house. New built. Garden and parking. Quiet neighbourhood.",
+    "description": "One-storey small house. New built. Garden and parking. Quiet neighbourhood.",
     "roommateFriendly": true,
     "type": "house",
     "builtType": "new",
@@ -158,7 +181,9 @@
     "city": "baku",
     "price": 350,
     "rooms": 1,
-    "images": ["https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800"],
+    "images": [
+      "https://res.cloudinary.com/dzw2udcre/image/upload/v1769958453/14256_ORy-qPd1Sq7t9MNYLNxnow_pxqxbr.jpg"
+    ],
     "rating": 4.0,
     "description": "Single room in shared flat. Common kitchen and bathroom. Best for budget-conscious students.",
     "roommateFriendly": true,

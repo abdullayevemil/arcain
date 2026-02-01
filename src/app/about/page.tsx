@@ -51,13 +51,13 @@ export default function AboutPage() {
     <div className="page-content">
       <div className="w-full  text-center">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">About Us</h1>
-        <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          Student Housing connects students with rental housing and roommates across the UK. We help landlords reach students and students find a place to call home.
+        <p className="mt-6 text-lg text-muted-foreground px-4 text-justify mx-auto leading-relaxed">
+                Arcain is a student-focused rental and roommate matching platform built for those moving to Baku to study. We simplify one of the biggest challenges students face: finding a suitable home and a trustworthy roommate. By combining verified rental listings with an intelligent roommate matching system, Arcain replaces scattered Facebook and WhatsApp searches with one secure, efficient platform. Our goal is to reduce risk, save time, and help students find the right place and the right people—so they can focus on their education, not housing stress.
         </p>
         <div className="mt-12 grid sm:grid-cols-3 gap-6">
           {whatWeDo.map((item) => (
             <Card key={item.title} className="border-0 shadow-md rounded-2xl overflow-hidden">
-              <CardContent className="p-6">
+              <CardContent className="p-6 flex flex-col items-center text-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 mb-4">
                   <item.icon className="h-6 w-6 text-primary" />
                 </div>

@@ -64,7 +64,7 @@ export default async function AdminHousesPage() {
                   <TableCell className="capitalize">{house.city}</TableCell>
                   <TableCell>{house.address || "—"}</TableCell>
                   <TableCell>{house.type === "house" ? "House" : "Flat"}</TableCell>
-                  <TableCell>£{house.price}</TableCell>
+                  <TableCell>₼{house.price}</TableCell>
                   <TableCell>{house.rooms}</TableCell>
                   <TableCell>{house.area ? `${house.area} m²` : "—"}</TableCell>
                   <TableCell>{house.floor ?? "—"}</TableCell>

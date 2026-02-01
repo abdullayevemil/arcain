@@ -86,7 +86,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/Desktop/arcain/new/src/assets/LOGO 2.png (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/LOGO 2.7cf2becb.png");}),
+__turbopack_context__.v("/_next/static/media/LOGO 2.cea80450.png");}),
 "[project]/Desktop/arcain/new/src/assets/LOGO 2.png.mjs { IMAGE => \"[project]/Desktop/arcain/new/src/assets/LOGO 2.png (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -98,11 +98,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$assets$2f$LOGO__2$2e$png__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
-    width: 650,
-    height: 330,
+    width: 623,
+    height: 250,
     blurWidth: 8,
-    blurHeight: 4,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAbklEQVR42nWN2waAQBiE/61IB9JB224k2U6KbAe1RBddRu//OO2yt40Zhhk+AC0kjXS3TdOmvk9cy3KAeB4ekqQ/81x0UVRXQVAuGPOXsWfLshmaMGRqvIvi4mk6jfIsKD12QtY+jlswEDL+orAfdMUJiFWq2GsAAAAASUVORK5CYII="
+    blurHeight: 3,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAYAAACuyE5IAAAAbklEQVR42gFjAJz/AAQGCAcFCQwLBgoNDQYJDQwEBggIDBMaGR8yREAVIi8sABssPDkgM0ZDJTtQTRYiLy0YJzUyHC0+PC1HYl4vS2ZiAAwUGxoQGSMhEBkiIQ0VHRsMExkYEBokIh4wQj4bKzs2O3QNOQ/9WQUAAAAASUVORK5CYII="
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
@@ -453,7 +453,7 @@ function Header() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             src: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$assets$2f$LOGO__2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$assets$2f$LOGO__2$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                             alt: "Student Housing",
-                            className: "h-9 w-auto",
+                            className: "h-full w-auto",
                             height: 36
                         }, void 0, false, {
                             fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",

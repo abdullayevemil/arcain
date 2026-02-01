@@ -166,7 +166,7 @@ export function HouseForm({ cities, house }: { cities: City[]; house?: House }) 
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
-              <Label htmlFor="price">Price (£/mo)</Label>
+              <Label htmlFor="price">Price (₼/mo)</Label>
               <Input id="price" type="number" min={0} value={price} onChange={(e) => setPrice(e.target.value)} required className="mt-1" />
             </div>
             <div>

@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { readCities } from "@/lib/data";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { MapPin, ArrowRight } from "lucide-react";
+import Baku from "@/assets/baku.jpg";
+import Image from "next/image";
 
 export default async function CitiesPage() {
   const cities = await readCities();
@@ -20,8 +22,8 @@ export default async function CitiesPage() {
             <Card className="group h-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 rounded-2xl border-border/60 overflow-hidden">
               <div className="aspect-[4/3] relative overflow-hidden bg-muted">
                 {city.image ? (
-                  <img
-                    src={city.image}
+                  <Image
+                    src={Baku}
                     alt={city.name}
                     className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />

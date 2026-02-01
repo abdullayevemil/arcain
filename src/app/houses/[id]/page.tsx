@@ -70,7 +70,7 @@ export default async function HouseDetailPage({ params }: { params: Promise<{ id
               </CardHeader>
               <CardContent className="space-y-5">
                 <div className="flex flex-wrap items-center gap-4 text-lg">
-                  <span className="font-semibold text-primary text-2xl">£{house.price}</span>
+                  <span className="font-semibold text-primary text-2xl">₼{house.price}</span>
                   <span className="text-muted-foreground">/ month</span>
                   <span className="flex items-center gap-1.5 text-muted-foreground">
                     <BedDouble className="h-4 w-4" />

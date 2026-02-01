@@ -124,7 +124,7 @@ export default async function HomePage() {
                     <p className="mt-1 text-sm text-muted-foreground">
                       {house.address ? `${house.address}, ` : ""}{house.city === "baku" ? "Baku" : house.city}
                     </p>
-                    <p className="mt-3 text-xl font-semibold text-primary">£{house.price}/mo</p>
+                    <p className="mt-3 text-xl font-semibold text-primary">₼{house.price}/mo</p>
                   </CardContent>
                 </article>
               </Link>

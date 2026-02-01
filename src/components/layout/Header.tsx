@@ -59,7 +59,7 @@ export function Header() {
     <header className="sticky top-0 z-40 w-full bg-background/80 backdrop-blur-xl border-b border-border/40">
       <div className="page-content flex h-12 items-center justify-between gap-6">
         <Link href="/" className="flex items-center gap-2.5 font-semibold text-foreground shrink-0">
-          <Image src={logoImage} alt="Student Housing" className="h-9 w-auto" height={36} />
+          <Image src={logoImage} alt="Student Housing" className="h-full w-auto" height={36} />
         </Link>
         <nav className="hidden md:flex items-center gap-0.5">
           {nav.map((item) => (

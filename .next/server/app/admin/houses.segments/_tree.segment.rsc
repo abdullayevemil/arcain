@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/b2bd9e2f5995a35d.css","style"]
+:HL["/_next/static/chunks/1ddbe722d6f889ad.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800","image"]
@@ -9,4 +9,4 @@
 :HL["https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800","image"]
 :HL["https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800","image"]
 :HL["https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800","image"]
-0:{"buildId":"rY3fLsGD_S6QWNBTgNyQT","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"admin","paramType":null,"paramKey":"admin","hasRuntimePrefetch":false,"slots":{"children":{"name":"houses","paramType":null,"paramKey":"houses","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"w0aFJ72Ol9iVAIA_rRzem","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"admin","paramType":null,"paramKey":"admin","hasRuntimePrefetch":false,"slots":{"children":{"name":"houses","paramType":null,"paramKey":"houses","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

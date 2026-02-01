@@ -93,7 +93,7 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$
 }),
 "[project]/Desktop/arcain/new/src/assets/LOGO 2.png (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/LOGO 2.7cf2becb.png");}),
+__turbopack_context__.v("/_next/static/media/LOGO 2.cea80450.png");}),
 "[project]/Desktop/arcain/new/src/assets/LOGO 2.png.mjs { IMAGE => \"[project]/Desktop/arcain/new/src/assets/LOGO 2.png (static in ecmascript, tag client)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -105,11 +105,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$assets$2f$LOGO__2$2e$png__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
-    width: 650,
-    height: 330,
+    width: 623,
+    height: 250,
     blurWidth: 8,
-    blurHeight: 4,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAbklEQVR42nWN2waAQBiE/61IB9JB224k2U6KbAe1RBddRu//OO2yt40Zhhk+AC0kjXS3TdOmvk9cy3KAeB4ekqQ/81x0UVRXQVAuGPOXsWfLshmaMGRqvIvi4mk6jfIsKD12QtY+jlswEDL+orAfdMUJiFWq2GsAAAAASUVORK5CYII="
+    blurHeight: 3,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAYAAACuyE5IAAAAbklEQVR42gFjAJz/AAQGCAcFCQwLBgoNDQYJDQwEBggIDBMaGR8yREAVIi8sABssPDkgM0ZDJTtQTRYiLy0YJzUyHC0+PC1HYl4vS2ZiAAwUGxoQGSMhEBkiIQ0VHRsMExkYEBokIh4wQj4bKzs2O3QNOQ/9WQUAAAAASUVORK5CYII="
 };
 }),
 "[project]/Desktop/arcain/new/src/components/layout/Footer.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {

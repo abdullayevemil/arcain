@@ -343,7 +343,7 @@ export function HousesList({ cities }: HousesListProps) {
                       {house.address ? `${house.address}, ` : ""}{house.city}
                     </p>
                     <div className="mt-2 flex flex-wrap items-center gap-2">
-                      <span className="font-semibold text-primary">£{house.price}/mo</span>
+                      <span className="font-semibold text-primary">₼{house.price}/mo</span>
                       {house.roommateFriendly && (
                         <Badge variant="outline" className="text-xs">Roommate OK</Badge>
                       )}
