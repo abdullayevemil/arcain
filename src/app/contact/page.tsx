@@ -78,8 +78,8 @@ export default function ContactPage() {
                   <Mail className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                   <div>
                     <p className="text-sm font-medium">Email</p>
-                    <a href="mailto:support@studenthousing.example" className="text-sm text-muted-foreground hover:text-primary">
-                      support@studenthousing.example
+                    <a href="mailto:arcainrent@gmail.com" className="text-sm text-muted-foreground hover:text-primary">
+                      arcainrent@gmail.com
                     </a>
                   </div>
                 </div>
@@ -87,21 +87,21 @@ export default function ContactPage() {
                   <Phone className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                   <div>
                     <p className="text-sm font-medium">Phone</p>
-                    <p className="text-sm text-muted-foreground">+44 20 7123 4567</p>
+                    <p className="text-sm text-muted-foreground">+994 50 777 44 02</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Clock className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                   <div>
                     <p className="text-sm font-medium">Hours</p>
-                    <p className="text-sm text-muted-foreground">Mon–Fri 9am–6pm GMT</p>
+                    <p className="text-sm text-muted-foreground">Mon–Fri 9am–5pm</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                   <div>
                     <p className="text-sm font-medium">Office</p>
-                    <p className="text-sm text-muted-foreground">London, UK</p>
+                    <p className="text-sm text-muted-foreground">Baku, AZ</p>
                   </div>
                 </div>
               </CardContent>

@@ -1,5 +1,4 @@
 {
-  "/about/page": "app/about/page.js",
   "/api/houses/route": "app/api/houses/route.js",
   "/cities/page": "app/cities/page.js",
   "/contact/page": "app/contact/page.js",

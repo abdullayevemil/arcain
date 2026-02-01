@@ -60,9 +60,9 @@ export function Footer() {
             © {new Date().getFullYear()} Student Housing. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <a href="mailto:support@studenthousing.example" className="hover:text-foreground inline-flex items-center gap-1.5 transition-colors">
+            <a href="mailto:arcainrent@gmail.com" className="hover:text-foreground inline-flex items-center gap-1.5 transition-colors">
               <Mail className="h-4 w-4" />
-              support@studenthousing.example
+              arcainrent@gmail.com
             </a>
           </div>
         </div>
