@@ -1,1 +1,1406 @@
-[00:00:01.046] Server  LOG     ✓ Ready in 819ms
+[00:00:00.703] Server  LOG     ✓ Ready in 527ms
+[00:00:03.581] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { Heart, X, Star, Check, CreditCard } from "lucide-react";
+  6 | import { Button } from "@/components/ui/button";
+  7 | import { Card, CardContent } from "@/components/ui/card";
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:03.907] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:06.946] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:20.509] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:00:20.509] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:00:29.925] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:52.520] Server  LOG     ✓ Compiled in 50ms
+[00:00:56.210] Server  LOG     ✓ Compiled in 28ms
+[00:00:59.071] Server  LOG     ✓ Compiled in 30ms
+[00:01:04.055] Server  LOG     ✓ Compiled in 31ms
+[00:01:32.069] Server  LOG     ✓ Compiled in 58ms
+[00:01:41.249] Server  LOG     ✓ Compiled in 33ms
+[00:01:49.058] Server  LOG     ✓ Compiled in 25ms
+[00:01:50.133] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:01.058] Server  LOG     ✓ Compiled in 30ms
+[00:02:14.049] Server  LOG     ✓ Compiled in 24ms
+[00:02:21.326] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:39.864] Server  LOG     ✓ Compiled in 19ms
+[00:02:45.392] Server  LOG     ✓ Compiled in 22ms
+[00:02:48.064] Server  LOG     ✓ Compiled in 28ms
+[00:02:57.019] Server  LOG     ✓ Compiled in 20ms
+[00:02:59.057] Server  LOG     ✓ Compiled in 26ms
+[00:03:29.566] Server  LOG     ✓ Compiled in 24ms
+[00:03:29.717] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:107:33
+Parsing ecmascript source code failed
+  105 |                 className="p-0 rounded-full w-14 h-14 bg-green-500 hover:bg-green-600 text-white"
+  106 |               >
+> 107 |                 <Heart width={} className="h-full w-full"/>
+      |                                 ^^^^^^^^^
+  108 |               </Button>
+  109 |             </div>
+  110 |           </CardContent>
+
+Expected '</', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:03:30.836] Server  LOG     ✓ Compiled in 21ms
+[00:03:34.063] Server  LOG     ✓ Compiled in 29ms
+[00:03:34.569] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:03:38.336] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:04:01.691] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:04:16.418] Server  LOG     ✓ Compiled in 22ms
+[00:04:19.900] Server  LOG     ✓ Compiled in 31ms
+[00:04:27.061] Server  LOG     ✓ Compiled in 33ms
+[00:04:32.573] Server  LOG     ✓ Compiled in 25ms
+[00:04:36.639] Server  LOG     ✓ Compiled in 21ms
+[00:04:40.039] Server  LOG     ✓ Compiled in 17ms
+[00:04:40.232] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/matching" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="/Desktop/a...">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function MatchingPage} serverProvidedParams={{...}}>
+              <MatchingPage params={Promise} searchParams={Promise}>
+                <div className="min-h-scre...">
+                  <_c className="w-full max...">
+                    <div ref={null} className="rounded-xl...">
+                      <_c8 className="p-6">
+                        <div ref={null} className="p-6">
+                          <h1>
+                          <AnimatePresence>
+                          <div className="flex justi...">
+                            <_c>
+                            <_c>
+                            <_c size="lg" onClick={function onClick} className="p-0 rounde...">
+                              <button
++                               className={"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm f..."}
+-                               className={"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm f..."}
+                                ref={null}
+                                onClick={function onClick}
+                              >
+                  ...
+          ...
+        ...
+
+[00:04:40.232] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:04:48.053] Server  LOG     ✓ Compiled in 25ms
+[00:05:04.324] Server  LOG     ✓ Compiled in 27ms
+[00:05:09.583] Server  LOG     ✓ Compiled in 27ms
+[00:05:24.053] Server  LOG     ✓ Compiled in 24ms
+[00:05:25.772] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:28.248] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:29.816] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:37.960] Server  LOG     ✓ Compiled in 20ms
+[00:05:40.006] Server  LOG     ✓ Compiled in 21ms
+[00:05:45.282] Server  LOG     ✓ Compiled in 19ms
+[00:06:04.326] Server  LOG     ✓ Compiled in 22ms
+[00:06:07.119] Server  LOG     ✓ Compiled in 19ms
+[00:06:13.469] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:14.130] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:18.473] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:31.800] Server  LOG     ✓ Compiled in 23ms
+[00:06:35.630] Server  LOG     ✓ Compiled in 31ms
+[00:06:39.564] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:42.583] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:48.305] Server  LOG     ✓ Compiled in 26ms
+[00:06:50.518] Server  LOG     ✓ Compiled in 18ms
+[00:06:52.818] Server  LOG     ✓ Compiled in 23ms
+[00:06:54.867] Server  LOG     ✓ Compiled in 42ms
+[00:06:55.832] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:07:08.910] Server  LOG     ✓ Compiled in 26ms
+[00:07:10.700] Server  LOG     ✓ Compiled in 26ms
+[00:07:11.746] Server  LOG     ✓ Compiled in 29ms
+[00:07:16.052] Server  LOG     ✓ Compiled in 23ms
+[00:07:29.714] Server  LOG     ✓ Compiled in 27ms
+[00:07:33.726] Server  LOG     ✓ Compiled in 27ms
+[00:07:37.735] Server  LOG     ✓ Compiled in 29ms
+[00:07:38.056] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:107:32
+Parsing ecmascript source code failed
+  105 |                 className="p-0 rounded-full w-14 h-14 bg-white hover:bg-white"
+  106 |               >
+> 107 |                 <Heart width={}className="text-green-500"/>
+      |                                ^^^^^^^^^
+  108 |               </Button>
+  109 |             </div>
+  110 |           </CardContent>
+
+Expected '</', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:07:41.151] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:09:32.070] Server  LOG     ✓ Compiled in 34ms
+[00:09:32.679] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:09:33.766] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:09:51.008] Server  LOG     ✓ Compiled in 27ms
+[00:09:58.059] Server  LOG     ✓ Compiled in 28ms
+[00:11:09.057] Server  LOG     ✓ Compiled in 28ms
+[00:11:10.978] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:11:14.995] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:11:30.048] Server  LOG     ✓ Compiled in 23ms
+[00:11:31.588] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:11:58.063] Server  LOG     ✓ Compiled in 35ms
+[00:12:01.290] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:12:03.992] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:12:13.295] Server  LOG     ✓ Compiled in 25ms
+[00:12:13.548] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true str str true str
+[00:12:16.323] Server  LOG     ✓ Compiled in 23ms
+[00:12:21.222] Server  LOG     ✓ Compiled in 22ms
+[00:12:27.059] Server  LOG     ✓ Compiled in 31ms
+[00:12:34.949] Server  LOG     ✓ Compiled in 26ms
+[00:12:35.218] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:106:50
+Parsing ecmascript source code failed
+  104 |                 className="p-0 rounded-full w-14 h-14 bg-white hover:bg-white"
+  105 |               >
+> 106 |                 <Heart width={36} strokeWidth={} className="text-green-500"/>
+      |                                                  ^^^^^^^^^
+  107 |               </Button>
+  108 |             </div>
+  109 |           </CardContent>
+
+Expected '</', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:12:41.050] Server  LOG     ✓ Compiled in 25ms
+[00:12:45.054] Server  LOG     ✓ Compiled in 34ms
+[00:12:53.871] Server  LOG     ✓ Compiled in 24ms
+[00:12:56.046] Server  LOG     ✓ Compiled in 22ms
+[00:14:52.587] Server  LOG     ✓ Compiled in 26ms
+[00:14:54.884] Server  LOG     ✓ Compiled in 29ms
+[00:15:03.664] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:15:16.326] Server  LOG     ✓ Compiled in 22ms
+[00:15:22.112] Server  LOG     ✓ Compiled in 28ms
+[00:15:22.296] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:15:8
+Ecmascript file had an error
+  13 | } from "@/components/ui/dialog";
+  14 | import Oruc from "@/assets/oruc.png";
+> 15 | import Oruc from "@/assets/oruc.png";
+     |        ^^^^
+  16 |
+  17 | export default function MatchingPage() {
+  18 |   const users = [
+
+the name `Oruc` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:15:25.823] Server  LOG     ✓ Compiled in 24ms
+[00:15:34.134] Server  LOG     ✓ Compiled in 166ms
+[00:15:36.143] Server  LOG     ✓ Compiled in 24ms
+[00:15:41.424] Server  LOG     ✓ Compiled in 23ms
+[00:15:41.674] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: nermin
+[00:15:45.572] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:45.595] Server  LOG     ✓ Compiled in 22ms
+[00:15:45.650] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: nermin
+[00:15:45.657] Server  ERROR   Error: aborted
+[00:15:45.784] Server  ERROR   ⨯ ReferenceError: nermin is not defined
+[00:15:46.353] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: nermin
+[00:15:49.194] Server  LOG     ✓ Compiled in 45ms
+[00:15:49.226] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:50.211] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:15:51.877] Server  LOG     ✓ Compiled in 27ms
+[00:15:54.907] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:15:55.664] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:15:55.860] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:04.317] Server  LOG     ✓ Compiled in 24ms
+[00:16:04.515] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: Imge
+[00:16:07.949] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:07.975] Server  LOG     ✓ Compiled in 64ms
+[00:16:08.733] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:12.078] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:43.740] Server  LOG     ✓ Compiled in 25ms
+[00:16:45.387] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:48.243] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:53.273] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:17:10.059] Server  LOG     ✓ Compiled in 29ms
+[00:17:13.217] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:17:15.360] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:17:16.163] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:17:17.662] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:18:59.832] Server  LOG     ✓ Compiled in 25ms
+[00:19:02.209] Server  LOG     ✓ Compiled in 29ms
+[00:19:02.639] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:96:44
+Parsing ecmascript source code failed
+  94 |                 className="p-0 rounded-full w-14 h-14 bg-white hover:bg-white"
+  95 |               >
+> 96 |                 <X strokeWidth={4} size={} className="h-full w-full text-red-500"/>
+     |                                            ^^^^^^^^^
+  97 |               </Button>
+  98 |
+  99 |               <Button
+
+Expected '</', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:19:03.687] Server  LOG     ✓ Compiled in 31ms
+[00:19:07.061] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:19:12.270] Server  LOG     ✓ Compiled in 24ms
+[00:19:12.549] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:96:36
+Parsing ecmascript source code failed
+  94 |                 className="p-0 rounded-full w-14 h-14 bg-white hover:bg-white"
+  95 |               >
+> 96 |                 <X strokeWidth={4} } className="h-full w-full text-red-500"/>
+     |                                    ^
+  97 |               </Button>
+  98 |
+  99 |               <Button
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:20:24.920] Server  LOG     ✓ Compiled in 25ms
+[00:20:25.931] Server  LOG     ✓ Compiled in 22ms
+[00:20:28.122] Server  LOG     ✓ Compiled in 22ms
+[00:20:35.131] Server  LOG     ✓ Compiled in 31ms
+[00:20:37.138] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:20:38.115] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:20:38.316] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:20:41.138] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:21:07.066] Server  LOG     ✓ Compiled in 32ms
+[00:21:11.842] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:21:37.597] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:21:55.238] Server  LOG     ✓ Compiled in 110ms
+[00:22:00.188] Server  LOG     ✓ Compiled in 100ms
+[00:22:00.475] Browser ERROR   ./Desktop/arcain/new/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/emil/Desktop/arcain/new/src/app/globals.css:67:3: Unknown word w-
+    [at Input.error (turbopack:///[project]/Desktop/arcain/new/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/Desktop/arcain/new/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/Desktop/arcain/new/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/Desktop/arcain/new/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/Desktop/arcain/new/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/Desktop/arcain/new/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/Desktop/arcain/new/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/globals.css [Client Component Browser]
+    ./Desktop/arcain/new/src/app/layout.tsx [Server Component]
+[00:22:03.853] Server  LOG     ✓ Compiled in 111ms
+[00:22:11.142] Server  LOG     ✓ Compiled in 107ms
+[00:22:12.415] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:22:14.832] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:22:17.018] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:22:35.272] Server  LOG     ✓ Compiled in 28ms
+[00:22:39.340] Server  LOG     ✓ Compiled in 30ms
+[00:22:43.290] Server  LOG     ✓ Compiled in 24ms
+[00:22:43.478] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: Oruc
+[00:22:47.505] Server  LOG     ✓ Compiled in 26ms
+[00:22:47.532] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:22:47.604] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: Nermin
+[00:22:47.810] Server  ERROR   ⨯ ReferenceError: Nermin is not defined
+[00:22:50.362] Server  LOG     ✓ Compiled in 1ms
+[00:22:50.764] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:22:50.774] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: Nermin
+[00:22:50.924] Server  ERROR   ⨯ ReferenceError: Oruc is not defined
+[00:22:51.482] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: Oruc
+[00:22:53.465] Server  LOG     ✓ Compiled in 30ms
+[00:22:53.492] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:22:53.697] Server  ERROR   ⨯ ReferenceError: Oruc is not defined
+[00:22:56.996] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: Oruc
+[00:22:57.768] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:22:57.790] Server  LOG     ✓ Compiled in 26ms
+[00:22:57.962] Server  ERROR   ⨯ ReferenceError: Oruc is not defined
+[00:23:00.597] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: Oruc
+[00:23:01.955] Server  LOG     ✓ Compiled in 24ms
+[00:23:02.003] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:23:03.155] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:23:31.211] Server  LOG     ✓ Compiled in 21ms
+[00:23:33.094] Server  LOG     ✓ Compiled in 25ms
+[00:23:37.939] Server  LOG     ✓ Compiled in 29ms
+[00:23:39.447] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:23:57.024] Server  LOG     ✓ Compiled in 28ms
+[00:23:59.484] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:24:01.997] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:24:23.738] Server  LOG     ✓ Compiled in 23ms
+[00:24:27.025] Server  LOG     ✓ Compiled in 18ms
+[00:24:33.071] Server  LOG     ✓ Compiled in 29ms
+[00:25:48.055] Server  LOG     ✓ Compiled in 29ms
+[00:26:09.055] Server  LOG     ✓ Compiled in 24ms
+[00:28:44.067] Server  LOG     ✓ Compiled in 38ms
+[00:28:53.861] Server  LOG     ✓ Compiled in 25ms
+[00:29:12.113] Server  LOG     ✓ Compiled in 33ms
+[00:29:12.321] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:133:68
+Parsing ecmascript source code failed
+  131 |               Say hello 👋
+  132 |             </Button>
+> 133 |             <Button variant="outline" className="w-full" onClick={}>
+      |                                                                    ^
+  134 |               Keep swiping
+  135 |             </Button>
+  136 |           </CardContent>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:29:15.041] Server  LOG     ✓ Compiled in 23ms
+[00:29:18.616] Server  LOG     ✓ Compiled in 27ms
+[00:29:23.414] Server  LOG     ✓ Compiled in 30ms
+[00:29:24.707] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:30:00.914] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:31:10.633] Server  LOG     ✓ Compiled in 30ms
+[00:31:13.595] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:32:06.887] Server  LOG     ✓ Compiled in 28ms
+[00:32:07.018] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:206:67
+Parsing ecmascript source code failed
+  204 | }) {
+  205 |   return (
+> 206 |     <Card className={highlight ? "border-primary" : ""} onClick={}>
+      |                                                                   ^
+  207 |       <CardContent className="p-6 text-center">
+  208 |         <h2 className="text-xl font-semibold mb-1">{name}</h2>
+  209 |         <span className={`inline-block mb-4 px-3 py-1 text-xs font-semibold rounded-full ${badge === "Bronze" ? "bg-amber-200 text-amber-800" : badge === "Silver" ? "bg-slate-200 text-slate-800" : "bg-yellow-300 text-yellow-900"}`}>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:32:07.018] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:223:6
+Parsing ecmascript source code failed
+  221 |         </Button>
+  222 |       </CardContent>
+> 223 |     </Card>
+      |      ^^^^^^
+  224 |   );
+  225 | }
+  226 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:32:18.193] Server  LOG     ✓ Compiled in 22ms
+[00:32:34.150] Server  LOG     ✓ Compiled in 25ms
+[00:32:45.307] Server  LOG     ✓ Compiled in 19ms
+[00:32:45.473] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:41:10
+Ecmascript file had an error
+  39 |
+  40 |   const [index, setIndex] = useState(0);
+> 41 |   const [index, setIndex] = useState(0);
+     |          ^^^^^
+  42 |   const [step, setStep] = useState<"matching" | "matched" | "subscription">("matching");
+  43 |   const [showPayment, setShowPayment] = useState(false);
+  44 |
+
+the name `index` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:32:45.473] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:41:17
+Ecmascript file had an error
+  39 |
+  40 |   const [index, setIndex] = useState(0);
+> 41 |   const [index, setIndex] = useState(0);
+     |                 ^^^^^^^^
+  42 |   const [step, setStep] = useState<"matching" | "matched" | "subscription">("matching");
+  43 |   const [showPayment, setShowPayment] = useState(false);
+  44 |
+
+the name `setIndex` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:32:46.552] Server  LOG     ✓ Compiled in 23ms
+[00:32:46.733] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:41:15
+Ecmascript file had an error
+  39 |
+  40 |   const [index, setIndex] = useState(0);
+> 41 |   const [sub, setIndex] = useState(0);
+     |               ^^^^^^^^
+  42 |   const [step, setStep] = useState<"matching" | "matched" | "subscription">("matching");
+  43 |   const [showPayment, setShowPayment] = useState(false);
+  44 |
+
+the name `setIndex` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:33:02.825] Server  LOG     ✓ Compiled in 22ms
+[00:33:07.209] Server  LOG     ✓ Compiled in 26ms
+[00:33:14.866] Server  LOG     ✓ Compiled in 24ms
+[00:33:26.437] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:33:26.437] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:34:31.277] Server  LOG     ✓ Compiled in 29ms
+[00:34:35.847] Server  LOG     ✓ Compiled in 37ms
+[00:34:36.102] Browser ERROR   ./Desktop/arcain/new/src/components/layout/Header.tsx:79:42
+Parsing ecmascript source code failed
+  77 |             </Link>
+  78 |           ))}
+> 79 |           {user?.role === "landlord" && (}
+     |                                          ^
+  80 |         </nav>
+  81 |         <div className="flex items-center gap-2 shrink-0">
+  82 |           {user ? (
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./Desktop/arcain/new/src/components/layout/Header.tsx
+    ./Desktop/arcain/new/src/app/layout.tsx
+[00:34:40.707] Browser ERROR   ./Desktop/arcain/new/src/components/layout/Header.tsx:79:41
+Parsing ecmascript source code failed
+  77 |             </Link>
+  78 |           ))}
+> 79 |           {user?.role === "student" && (}
+     |                                         ^
+  80 |         </nav>
+  81 |         <div className="flex items-center gap-2 shrink-0">
+  82 |           {user ? (
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./Desktop/arcain/new/src/components/layout/Header.tsx
+    ./Desktop/arcain/new/src/app/layout.tsx
+[00:34:52.710] Browser ERROR   ./Desktop/arcain/new/src/components/layout/Header.tsx:90:20
+Parsing ecmascript source code failed
+  88 |             >
+  89 |               {item.label}
+> 90 |             </Link>}
+     |                    ^
+  91 |         </nav>
+  92 |         <div className="flex items-center gap-2 shrink-0">
+  93 |           {user ? (
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./Desktop/arcain/new/src/components/layout/Header.tsx
+    ./Desktop/arcain/new/src/app/layout.tsx
+[00:34:56.606] Server  LOG     ✓ Compiled in 19ms
+[00:34:56.756] Browser ERROR   ./Desktop/arcain/new/src/components/layout/Header.tsx:90:22
+Parsing ecmascript source code failed
+  88 |             >
+  89 |               {item.label}
+> 90 |             </Link>) : null}
+     |                      ^
+  91 |         </nav>
+  92 |         <div className="flex items-center gap-2 shrink-0">
+  93 |           {user ? (
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Desktop/arcain/new/src/components/layout/Header.tsx
+    ./Desktop/arcain/new/src/app/layout.tsx
+[00:35:03.151] Browser ERROR   ./Desktop/arcain/new/src/components/layout/Header.tsx:89:22
+Parsing ecmascript source code failed
+  87 |             >
+  88 |               {item.label}
+> 89 |             </Link>) : null}
+     |                      ^
+  90 |         </nav>
+  91 |         <div className="flex items-center gap-2 shrink-0">
+  92 |           {user ? (
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Desktop/arcain/new/src/components/layout/Header.tsx
+    ./Desktop/arcain/new/src/app/layout.tsx
+[00:35:10.234] Browser ERROR   ./Desktop/arcain/new/src/components/layout/Header.tsx:89:22
+Parsing ecmascript source code failed
+  87 |             >
+  88 |               {item.label}
+> 89 |             </Link>) : null}
+     |                      ^
+  90 |         </nav>
+  91 |         <div className="flex items-center gap-2 shrink-0">
+  92 |           {user ? (
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Desktop/arcain/new/src/components/layout/Header.tsx
+    ./Desktop/arcain/new/src/app/layout.tsx
+[00:35:12.835] Browser ERROR   ./Desktop/arcain/new/src/components/layout/Header.tsx:89:22
+Parsing ecmascript source code failed
+  87 |             >
+  88 |               {item.label}
+> 89 |             </Link>) : null}
+     |                      ^
+  90 |         </nav>
+  91 |         <div className="flex items-center gap-2 shrink-0">
+  92 |           {user ? (
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Desktop/arcain/new/src/components/layout/Header.tsx
+    ./Desktop/arcain/new/src/app/layout.tsx
+[00:35:16.702] Browser ERROR   ./Desktop/arcain/new/src/components/layout/Header.tsx:89:22
+Parsing ecmascript source code failed
+  87 |             >
+  88 |              Matching
+> 89 |             </Link>) : null}
+     |                      ^
+  90 |         </nav>
+  91 |         <div className="flex items-center gap-2 shrink-0">
+  92 |           {user ? (
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Desktop/arcain/new/src/components/layout/Header.tsx
+    ./Desktop/arcain/new/src/app/layout.tsx
+[00:35:26.639] Server  LOG     ✓ Compiled in 22ms
+[00:35:26.794] Browser ERROR   ./Desktop/arcain/new/src/components/layout/Header.tsx:89:20
+Parsing ecmascript source code failed
+  87 |             >
+  88 |              Matching
+> 89 |             </Link>) : null}
+     |                    ^
+  90 |         </nav>
+  91 |         <div className="flex items-center gap-2 shrink-0">
+  92 |           {user ? (
+
+Expected '</', got ')'
+
+Import trace:
+  Server Component:
+    ./Desktop/arcain/new/src/components/layout/Header.tsx
+    ./Desktop/arcain/new/src/app/layout.tsx
+[00:35:28.410] Server  LOG     ✓ Compiled in 25ms
+[00:35:28.652] Browser ERROR   ./Desktop/arcain/new/src/components/layout/Header.tsx:89:21
+Parsing ecmascript source code failed
+  87 |             >
+  88 |              Matching
+> 89 |             </Link> : null}
+     |                     ^
+  90 |         </nav>
+  91 |         <div className="flex items-center gap-2 shrink-0">
+  92 |           {user ? (
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./Desktop/arcain/new/src/components/layout/Header.tsx
+    ./Desktop/arcain/new/src/app/layout.tsx
+[00:35:36.709] Server  LOG     ✓ Compiled in 32ms
+[00:35:38.238] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:38:42.855] Server  LOG     ✓ Compiled in 28ms
+[00:38:52.813] Server  LOG     ✓ Compiled in 24ms
+[00:39:59.739] Server  LOG     ✓ Compiled in 37ms
+[00:39:59.942] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: Camera
+[00:40:16.104] Server  LOG     ✓ Compiled in 45ms
+[00:40:16.140] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:41:31.314] Server  LOG     ✓ Compiled in 25ms
+[00:41:32.451] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Desktop/arcain/new/src/components/admin/HouseForm.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:41:32.451] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin/houses/new. Falling back to browser navigation. {}
+[00:41:36.276] Server  LOG     ✓ Compiled in 35ms
+[00:41:50.628] Server  LOG     ✓ Compiled in 24ms
+[00:41:53.257] Server  LOG     ✓ Compiled in 26ms
+[00:41:55.196] Server  LOG     ✓ Compiled in 28ms
+[00:42:03.487] Server  LOG     ✓ Compiled in 30ms
+[00:42:07.064] Server  LOG     ✓ Compiled in 31ms
+[00:45:54.498] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:251:9
+Parsing ecmascript source code failed
+  249 |         </ul>
+  250 |         <
+> 251 |         <Button className="w-full bg-primary text-white" onClick={onSelect}>
+      |         ^
+  252 |           Select
+  253 |         </Button>
+  254 |       </CardContent>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:45:56.363] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:251:9
+Parsing ecmascript source code failed
+  249 |         </ul>
+  250 |         <Label
+> 251 |         <Button className="w-full bg-primary text-white" onClick={onSelect}>
+      |         ^
+  252 |           Select
+  253 |         </Button>
+  254 |       </CardContent>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:45:58.296] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:252:9
+Parsing ecmascript source code failed
+  250 |         </ul>
+  251 |         <Label
+> 252 |         <Button className="w-full bg-primary text-white" onClick={onSelect}>
+      |         ^
+  253 |           Select
+  254 |         </Button>
+  255 |       </CardContent>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:45:59.579] Browser ERROR   ./Desktop/arcain/new/src/app/matching/page.tsx:255:21
+Parsing ecmascript source code failed
+  253 |           Select
+  254 |         </Button>
+> 255 |       </CardContent>
+      |                     ^
+> 256 |     </Card>
+      | ^^^^^
+  257 |   );
+  258 | }
+  259 |
+
+Expected '</', got 'jsx text'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/matching/page.tsx [Server Component]
+[00:46:00.538] Server  LOG     ✓ Compiled in 22ms
+[00:47:22.817] Server  ERROR   ⨯ ReferenceError: BadgeCheck is not defined
+[00:47:23.066] Browser ERROR   uncaughtError: ReferenceError: BadgeCheck is not defined
+[00:47:29.223] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <button className=... ref=... onClick={function onClick} children=...>
+                                        ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:47:30.312] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <button className=... ref=... onClick={function onClick} children=...>
+                                        ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:47:52.694] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <button className=... ref=... onClick={function onClick} children=...>
+                                        ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:47:53.370] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <button className=... ref=... onClick={function onClick} children=...>
+                                        ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:47:57.737] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Ecmascript file had an error
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+You have a Server Component that imports next/router. Use next/navigation instead.
+Learn more: https://nextjs.org/docs/app/api-reference/functions/use-router
+[00:48:16.711] Server  ERROR   ⨯ ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Ecmascript file had an error
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+You have a Server Component that imports next/router. Use next/navigation instead.
+Learn more: https://nextjs.org/docs/app/api-reference/functions/use-router
+
+
+[00:48:16.947] Browser ERROR   uncaughtError: Error: ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Ecmascript file had an error
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+You have a Server Component that imports next/router. Use next/navigation instead.
+Learn more: https://nextjs.org/docs/app/api-reference/functions/use-router
+
+
+[00:48:17.095] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Ecmascript file had an error
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+You have a Server Component that imports next/router. Use next/navigation instead.
+Learn more: https://nextjs.org/docs/app/api-reference/functions/use-router
+[00:48:17.095] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Ecmascript file had an error
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+You have a Server Component that imports next/router. Use next/navigation instead.
+Learn more: https://nextjs.org/docs/app/api-reference/functions/use-router
+[00:48:29.102] Server  ERROR   ⨯ ./Desktop/arcain/new/src/lib/data.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import { promises as fs } from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import type { House, City, User } from "@/types";
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:29.103] Server  ERROR   ⨯ ./Desktop/arcain/new/src/lib/data.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import { promises as fs } from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import type { House, City, User } from "@/types";
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:29.235] Browser ERROR   ./Desktop/arcain/new/src/lib/data.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import { promises as fs } from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import type { House, City, User } from "@/types";
+  4 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:48:30.885] Server  ERROR   ⨯ ./Desktop/arcain/new/src/lib/data.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import { promises as fs } from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import type { House, City, User } from "@/types";
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:30.945] Browser ERROR   uncaughtError: Error: ./Desktop/arcain/new/src/lib/data.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import { promises as fs } from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import type { House, City, User } from "@/types";
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:48:31.079] Browser ERROR   ./Desktop/arcain/new/src/lib/data.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import { promises as fs } from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import type { House, City, User } from "@/types";
+  4 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:48:31.079] Browser ERROR   ./Desktop/arcain/new/src/lib/data.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import { promises as fs } from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import type { House, City, User } from "@/types";
+  4 |
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component Browser]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/arcain/new/src/lib/data.ts [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Client Component SSR]
+    ./Desktop/arcain/new/src/app/admin/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:48:34.808] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Ecmascript file had an error
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/router";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+You have a Server Component that imports next/router. Use next/navigation instead.
+Learn more: https://nextjs.org/docs/app/api-reference/functions/use-router
+[00:48:37.775] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Export default doesn't exist in target module
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+The export default was not found in module [project]/Desktop/arcain/new/node_modules/.pnpm/next@16.1.6_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:48:39.452] Server  ERROR   ⨯ ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Export default doesn't exist in target module
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+The export default was not found in module [project]/Desktop/arcain/new/node_modules/.pnpm/next@16.1.6_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:48:39.517] Browser ERROR   uncaughtError: Error: ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Export default doesn't exist in target module
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+The export default was not found in module [project]/Desktop/arcain/new/node_modules/.pnpm/next@16.1.6_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:48:39.652] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Export default doesn't exist in target module
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+The export default was not found in module [project]/Desktop/arcain/new/node_modules/.pnpm/next@16.1.6_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:48:39.652] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Export default doesn't exist in target module
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+The export default was not found in module [project]/Desktop/arcain/new/node_modules/.pnpm/next@16.1.6_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:48:40.118] Server  ERROR   ⨯ ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Export default doesn't exist in target module
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+The export default was not found in module [project]/Desktop/arcain/new/node_modules/.pnpm/next@16.1.6_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:48:40.186] Browser ERROR   uncaughtError: Error: ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Export default doesn't exist in target module
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+The export default was not found in module [project]/Desktop/arcain/new/node_modules/.pnpm/next@16.1.6_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:48:40.322] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Export default doesn't exist in target module
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+The export default was not found in module [project]/Desktop/arcain/new/node_modules/.pnpm/next@16.1.6_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:48:40.322] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:6:1
+Export default doesn't exist in target module
+  4 | import { Button } from "@/components/ui/button";
+  5 | import { BadgeCheck, Building2, MapPin, Users } from "lucide-react";
+> 6 | import router from "next/navigation";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default async function AdminDashboardPage() {
+  9 |   const [houses, cities, users] = await Promise.all([
+
+The export default was not found in module [project]/Desktop/arcain/new/node_modules/.pnpm/next@16.1.6_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:48:46.096] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <button className=... ref=... onClick={function onClick} children=...>
+                                        ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:48:46.953] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <button className=... ref=... onClick={function onClick} children=...>
+                                        ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:48:49.198] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <button className=... ref=... onClick={function onClick} children=...>
+                                        ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:48:49.772] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <button className=... ref=... onClick={function onClick} children=...>
+                                        ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:48:52.365] Server  LOG     ✓ Compiled in 23ms
+[00:48:54.402] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:45:22
+Parsing ecmascript source code failed
+  43 |             >
+  44 |               Buy subscription
+> 45 |             </Button>
+     |                      ^
+> 46 |             <p className="text-2xl font-bold">{houses.length}</p>
+     | ^^^^^^^^^^^^^
+  47 |             <Button asChild variant="link" className="p-0 h-auto mt-2">
+  48 |               <Link href="/admin/houses">Manage houses</Link>
+  49 |             </Button>
+
+Expected '</', got 'jsx text'
+[00:48:58.857] Server  LOG     ✓ Compiled in 23ms
+[00:48:59.204] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:49:01.339] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:43:15
+Parsing ecmascript source code failed
+  41 |             <Link
+  42 |             href={}
+> 43 |               className="bg-primary text-white"
+     |               ^^^^^^^^^
+  44 |             >
+  45 |               Buy subscription
+  46 |             </Link>
+
+Expected '</', got 'ident'
+[00:49:02.681] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:42:18
+Parsing ecmascript source code failed
+  40 |
+  41 |             <Link
+> 42 |             href=}
+     |                  ^
+  43 |               className="bg-primary text-white"
+  44 |             >
+  45 |               Buy subscription
+
+Expected '</', got '}'
+[00:49:04.087] Server  LOG     ✓ Compiled in 22ms
+[00:49:04.168] Server  ERROR   Error: aborted
+[00:49:06.922] Server  LOG     ✓ Compiled in 25ms
+[00:49:46.933] Server  LOG     ✓ Compiled in 20ms
+[00:49:50.321] Server  LOG     ✓ Compiled in 23ms
+[00:49:57.819] Server  LOG     ✓ Compiled in 21ms
+[00:50:06.568] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:44:23
+Parsing ecmascript source code failed
+  42 |             </Button>
+  43 |           </CardContent>
+> 44 |         </CardContent>
+     |                       ^
+> 45 |       </Card>
+     | ^^^^^^^
+  46 |       <div className="mt-8 grid gap-4 sm:grid-cols-3">
+  47 |         <Card>
+  48 |           <CardHeader className="flex flex-row items-center justify-between pb-2">
+
+Expected '</', got 'jsx text'
+[00:50:09.400] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:25:11
+Parsing ecmascript source code failed
+  23 |         <CardContent>
+  24 |           <CardHeader className="flex flex-row items-center justify-between pb-2"><
+> 25 |           <CardContent>
+     |           ^
+  26 |             <div>
+  27 |               <h3 className="text-lg font-semibold flex items-center gap-2">
+  28 |                 <BadgeCheck className="h-5 w-5 text-primary" />
+
+Expression expected
+[00:50:28.527] Server  LOG     ✓ Compiled in 20ms
+[00:50:38.674] Browser ERROR   ./Desktop/arcain/new/src/app/admin/page.tsx:55:16
+Parsing ecmascript source code failed
+  53 |               <Link href="/admin/houses">Manage houses</Link>
+  54 |             </Button>
+> 55 |         </Card>
+     |                ^
+> 56 |         <Card>
+     | ^^^^^^^^^
+  57 |           <CardHeader className="flex flex-row items-center justify-between pb-2">
+  58 |             <span className="text-sm font-medium text-muted-foreground">
+  59 |               Cities
+
+Expected '</', got 'jsx text'
+[00:51:02.760] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:52:42.716] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Desktop/arcain/new/node_modules/.pnpm/next@16.1.6_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:42.885] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/admin. Falling back to browser navigation. {}
+[00:52:56.304] Server  LOG     ✓ Compiled in 32ms
+[00:53:06.571] Browser WARN    Image with src "/_next/static/media/LOGO 2.cea80450.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:53:30.057] Server  LOG     ✓ Compiled in 24ms
+[00:53:38.045] Server  LOG     ✓ Compiled in 30ms
+[00:53:59.064] Server  LOG     ✓ Compiled in 34ms
+[00:54:00.465] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:54:00.465] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:54:03.976] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:54:03.976] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:54:06.457] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:54:06.457] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:54:30.636] Server  LOG     ✓ Compiled in 23ms
+[00:54:32.904] Server  LOG     ✓ Compiled in 24ms
+[00:54:40.059] Server  LOG     ✓ Compiled in 29ms
+[00:54:45.240] Server  LOG     ✓ Compiled in 18ms
+[00:54:54.132] Server  LOG     ✓ Compiled in 31ms
+[00:54:57.067] Server  LOG     ✓ Compiled in 34ms

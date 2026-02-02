@@ -1,6 +1,31 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/_app": []
+    "/_app": [
+      "static/chunks/d15ae_next_dist_compiled_1fcc21de._.js",
+      "static/chunks/d15ae_next_dist_shared_lib_55fe5938._.js",
+      "static/chunks/d15ae_next_dist_client_b9506098._.js",
+      "static/chunks/d15ae_next_dist_2c401365._.js",
+      "static/chunks/d15ae_next_app_b0cde8dc.js",
+      "static/chunks/[next]_entry_page-loader_ts_f7c53c12._.js",
+      "static/chunks/42cdb_react-dom_40ad4fdf._.js",
+      "static/chunks/4bc58__pnpm_fd7b694d._.js",
+      "static/chunks/[root-of-the-server]__000f6743._.js",
+      "static/chunks/Desktop_arcain_new_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Desktop_arcain_new_pages__app_16e52384._.js"
+    ],
+    "/_error": [
+      "static/chunks/d15ae_next_dist_compiled_1fcc21de._.js",
+      "static/chunks/d15ae_next_dist_shared_lib_2efa8c38._.js",
+      "static/chunks/d15ae_next_dist_client_b9506098._.js",
+      "static/chunks/d15ae_next_dist_a394d222._.js",
+      "static/chunks/d15ae_next_error_6e64d5b4.js",
+      "static/chunks/[next]_entry_page-loader_ts_de7ca7a7._.js",
+      "static/chunks/42cdb_react-dom_40ad4fdf._.js",
+      "static/chunks/4bc58__pnpm_fd7b694d._.js",
+      "static/chunks/[root-of-the-server]__ab96a041._.js",
+      "static/chunks/Desktop_arcain_new_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-Desktop_arcain_new_pages__error_a7b29269._.js"
+    ]
   },
   "devFiles": [],
   "polyfillFiles": [

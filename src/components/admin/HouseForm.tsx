@@ -1,15 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import type { City } from "@/types";
 import type { House } from "@/types";
+import { Loader2, Camera } from "lucide-react";
 
 const PLACEHOLDER_IMAGES = [
   "https://picsum.photos/800/600?random=a",
@@ -19,7 +26,71 @@ const PLACEHOLDER_IMAGES = [
   "https://picsum.photos/800/600?random=e",
 ];
 
-export function HouseForm({ cities, house }: { cities: City[]; house?: House }) {
+export function CameraBox() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [loading, setLoading] = useState(false);
+  const [stream, setStream] = useState<MediaStream | null>(null);
+
+  const openCamera = async () => {
+    setLoading(true);
+
+    try {
+      const mediaStream = await navigator.mediaDevices.getUserMedia({
+        video: { facingMode: "environment" },
+      });
+
+      setStream(mediaStream);
+      if (videoRef.current) {
+        videoRef.current.srcObject = mediaStream;
+      }
+    } catch (err) {
+      // User denied or browser blocked → loader stays
+      console.error("Camera blocked", err);
+    }
+  };
+
+  return (
+    <div className="w-full">
+      {!stream ? (
+        <Button
+          type="button"
+          onClick={openCamera}
+          className="h-32 w-full border-dashed border-2 flex flex-col gap-2"
+          variant="outline"
+        >
+          {loading ? (
+            <>
+              <Loader2 className="h-6 w-6 animate-spin text-primary" />
+              <span className="text-sm text-muted-foreground">
+                Opening camera…
+              </span>
+            </>
+          ) : (
+            <>
+              <Camera className="h-8 w-8 text-primary" />
+              <span className="text-sm font-medium">Open camera</span>
+            </>
+          )}
+        </Button>
+      ) : (
+        <video
+          ref={videoRef}
+          autoPlay
+          playsInline
+          className="w-full h-64 rounded-lg object-cover"
+        />
+      )}
+    </div>
+  );
+}
+
+export function HouseForm({
+  cities,
+  house,
+}: {
+  cities: City[];
+  house?: House;
+}) {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -29,10 +100,14 @@ export function HouseForm({ cities, house }: { cities: City[]; house?: House }) 
   const [rooms, setRooms] = useState(house?.rooms?.toString() ?? "1");
   const [rating, setRating] = useState(house?.rating?.toString() ?? "0");
   const [description, setDescription] = useState(house?.description ?? "");
-  const [roommateFriendly, setRoommateFriendly] = useState(house?.roommateFriendly ?? false);
+  const [roommateFriendly, setRoommateFriendly] = useState(
+    house?.roommateFriendly ?? false,
+  );
   const [imagesText, setImagesText] = useState(house?.images?.join("\n") ?? "");
   const [type, setType] = useState<"flat" | "house">(house?.type ?? "flat");
-  const [builtType, setBuiltType] = useState<"new" | "old">(house?.builtType ?? "new");
+  const [builtType, setBuiltType] = useState<"new" | "old">(
+    house?.builtType ?? "new",
+  );
   const [address, setAddress] = useState(house?.address ?? "");
   const [renovated, setRenovated] = useState(house?.renovated ?? false);
   const [area, setArea] = useState(house?.area?.toString() ?? "");
@@ -95,12 +170,15 @@ export function HouseForm({ cities, house }: { cities: City[]; house?: House }) 
       <CardHeader>
         <CardTitle>Image URLs (simulated upload)</CardTitle>
         <p className="text-sm text-muted-foreground">
-          Paste image URLs below or add from the placeholder list. Stored as JSON.
+          Paste image URLs below or add from the placeholder list. Stored as
+          JSON.
         </p>
       </CardHeader>
       <CardContent className="space-y-6">
         <div>
-          <Label className="text-muted-foreground">Quick add placeholder images</Label>
+          <Label className="text-muted-foreground">
+            Quick add placeholder images
+          </Label>
           <div className="mt-2 flex flex-wrap gap-2">
             {PLACEHOLDER_IMAGES.map((url) => (
               <Button
@@ -119,7 +197,13 @@ export function HouseForm({ cities, house }: { cities: City[]; house?: House }) 
           {error && <p className="text-sm text-destructive">{error}</p>}
           <div>
             <Label htmlFor="title">Title</Label>
-            <Input id="title" value={title} onChange={(e) => setTitle(e.target.value)} required className="mt-1" />
+            <Input
+              id="title"
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              required
+              className="mt-1"
+            />
           </div>
           <div>
             <Label>City</Label>
@@ -129,19 +213,30 @@ export function HouseForm({ cities, house }: { cities: City[]; house?: House }) 
               </SelectTrigger>
               <SelectContent>
                 {cities.map((c) => (
-                  <SelectItem key={c.id} value={c.slug}>{c.name}</SelectItem>
+                  <SelectItem key={c.id} value={c.slug}>
+                    {c.name}
+                  </SelectItem>
                 ))}
               </SelectContent>
             </Select>
           </div>
           <div>
             <Label htmlFor="address">Region (address)</Label>
-            <Input id="address" value={address} onChange={(e) => setAddress(e.target.value)} placeholder="e.g. Narimanov" className="mt-1" />
+            <Input
+              id="address"
+              value={address}
+              onChange={(e) => setAddress(e.target.value)}
+              placeholder="e.g. Narimanov"
+              className="mt-1"
+            />
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <Label>Type</Label>
-              <Select value={type} onValueChange={(v: "flat" | "house") => setType(v)}>
+              <Select
+                value={type}
+                onValueChange={(v: "flat" | "house") => setType(v)}
+              >
                 <SelectTrigger className="mt-1">
                   <SelectValue />
                 </SelectTrigger>
@@ -153,7 +248,10 @@ export function HouseForm({ cities, house }: { cities: City[]; house?: House }) 
             </div>
             <div>
               <Label>Built</Label>
-              <Select value={builtType} onValueChange={(v: "new" | "old") => setBuiltType(v)}>
+              <Select
+                value={builtType}
+                onValueChange={(v: "new" | "old") => setBuiltType(v)}
+              >
                 <SelectTrigger className="mt-1">
                   <SelectValue />
                 </SelectTrigger>
@@ -167,26 +265,64 @@ export function HouseForm({ cities, house }: { cities: City[]; house?: House }) 
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <Label htmlFor="price">Price (₼/mo)</Label>
-              <Input id="price" type="number" min={0} value={price} onChange={(e) => setPrice(e.target.value)} required className="mt-1" />
+              <Input
+                id="price"
+                type="number"
+                min={0}
+                value={price}
+                onChange={(e) => setPrice(e.target.value)}
+                required
+                className="mt-1"
+              />
             </div>
             <div>
               <Label htmlFor="rooms">Rooms</Label>
-              <Input id="rooms" type="number" min={1} value={rooms} onChange={(e) => setRooms(e.target.value)} className="mt-1" />
+              <Input
+                id="rooms"
+                type="number"
+                min={1}
+                value={rooms}
+                onChange={(e) => setRooms(e.target.value)}
+                className="mt-1"
+              />
             </div>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <Label htmlFor="area">Area (m²)</Label>
-              <Input id="area" type="number" min={0} value={area} onChange={(e) => setArea(e.target.value)} className="mt-1" />
+              <Input
+                id="area"
+                type="number"
+                min={0}
+                value={area}
+                onChange={(e) => setArea(e.target.value)}
+                className="mt-1"
+              />
             </div>
             <div>
               <Label htmlFor="floor">Floor</Label>
-              <Input id="floor" type="number" min={0} value={floor} onChange={(e) => setFloor(e.target.value)} className="mt-1" />
+              <Input
+                id="floor"
+                type="number"
+                min={0}
+                value={floor}
+                onChange={(e) => setFloor(e.target.value)}
+                className="mt-1"
+              />
             </div>
           </div>
           <div>
             <Label htmlFor="rating">Rating (0–5)</Label>
-            <Input id="rating" type="number" min={0} max={5} step={0.1} value={rating} onChange={(e) => setRating(e.target.value)} className="mt-1" />
+            <Input
+              id="rating"
+              type="number"
+              min={0}
+              max={5}
+              step={0.1}
+              value={rating}
+              onChange={(e) => setRating(e.target.value)}
+              className="mt-1"
+            />
           </div>
           <div className="flex items-center gap-2">
             <input
@@ -210,24 +346,27 @@ export function HouseForm({ cities, house }: { cities: City[]; house?: House }) 
           </div>
           <div>
             <Label htmlFor="description">Description</Label>
-            <Textarea id="description" value={description} onChange={(e) => setDescription(e.target.value)} rows={4} className="mt-1" />
+            <Textarea
+              id="description"
+              value={description}
+              onChange={(e) => setDescription(e.target.value)}
+              rows={4}
+              className="mt-1"
+            />
           </div>
           <div>
-            <Label htmlFor="images">Image URLs (one per line or comma-separated)</Label>
-            <Textarea
-              id="images"
-              value={imagesText}
-              onChange={(e) => setImagesText(e.target.value)}
-              placeholder="https://example.com/image1.jpg"
-              rows={4}
-              className="mt-1 font-mono text-sm"
-            />
+            <Label>Images (Access device camera)</Label>
+            <CameraBox />
           </div>
           <div className="flex gap-2">
             <Button type="submit" disabled={loading}>
               {loading ? "Saving…" : house ? "Update" : "Create"}
             </Button>
-            <Button type="button" variant="outline" onClick={() => router.back()}>
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => router.back()}
+            >
               Cancel
             </Button>
           </div>

@@ -100,7 +100,7 @@ Button.displayName = "Button";
 }),
 "[project]/Desktop/arcain/new/src/assets/LOGO 2.png (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/LOGO 2.7cf2becb.png");}),
+__turbopack_context__.v("/_next/static/media/LOGO 2.cea80450.png");}),
 "[project]/Desktop/arcain/new/src/assets/LOGO 2.png.mjs { IMAGE => \"[project]/Desktop/arcain/new/src/assets/LOGO 2.png (static in ecmascript, tag client)\" } [app-ssr] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -112,11 +112,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$assets$2f$LOGO__2$2e$png__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
-    width: 650,
-    height: 330,
+    width: 623,
+    height: 250,
     blurWidth: 8,
-    blurHeight: 4,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAbklEQVR42nWN2waAQBiE/61IB9JB224k2U6KbAe1RBddRu//OO2yt40Zhhk+AC0kjXS3TdOmvk9cy3KAeB4ekqQ/81x0UVRXQVAuGPOXsWfLshmaMGRqvIvi4mk6jfIsKD12QtY+jlswEDL+orAfdMUJiFWq2GsAAAAASUVORK5CYII="
+    blurHeight: 3,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAYAAACuyE5IAAAAbklEQVR42gFjAJz/AAQGCAcFCQwLBgoNDQYJDQwEBggIDBMaGR8yREAVIi8sABssPDkgM0ZDJTtQTRYiLy0YJzUyHC0+PC1HYl4vS2ZiAAwUGxoQGSMhEBkiIQ0VHRsMExkYEBokIh4wQj4bKzs2O3QNOQ/9WQUAAAAASUVORK5CYII="
 };
 }),
 "[project]/Desktop/arcain/new/src/components/ui/dropdown-menu.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
@@ -430,32 +430,43 @@ function Header() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             src: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$assets$2f$LOGO__2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$assets$2f$LOGO__2$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
                             alt: "Student Housing",
-                            className: "h-9 w-auto",
+                            className: "h-full w-auto",
                             height: 36
                         }, void 0, false, {
                             fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                            lineNumber: 62,
+                            lineNumber: 76,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                        lineNumber: 61,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                         className: "hidden md:flex items-center gap-0.5",
-                        children: nav.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                href: item.href,
-                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("px-4 py-2 rounded-lg text-sm font-medium transition-colors", pathname === item.href ? "bg-primary/10 text-primary" : "text-muted-foreground hover:text-foreground hover:bg-muted/60"),
-                                children: item.label
-                            }, item.href, false, {
+                        children: [
+                            nav.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: item.href,
+                                    className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("px-4 py-2 rounded-lg text-sm font-medium transition-colors", pathname === item.href ? "bg-primary/10 text-primary" : "text-muted-foreground hover:text-foreground hover:bg-muted/60"),
+                                    children: item.label
+                                }, item.href, false, {
+                                    fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
+                                    lineNumber: 85,
+                                    columnNumber: 13
+                                }, this)),
+                            user?.role === "student" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/matching",
+                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("px-4 py-2 rounded-lg text-sm font-medium transition-colors", pathname === "/matching" ? "bg-primary/10 text-primary" : "text-muted-foreground hover:text-foreground hover:bg-muted/60"),
+                                children: "Matching"
+                            }, void 0, false, {
                                 fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                lineNumber: 66,
+                                lineNumber: 99,
                                 columnNumber: 13
-                            }, this))
-                    }, void 0, false, {
+                            }, this) : null
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                        lineNumber: 64,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -475,7 +486,7 @@ function Header() {
                                                     className: "h-4 w-4 sm:mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                    lineNumber: 86,
+                                                    lineNumber: 122,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -483,18 +494,18 @@ function Header() {
                                                     children: "Admin"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                    lineNumber: 87,
+                                                    lineNumber: 123,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                            lineNumber: 85,
+                                            lineNumber: 117,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 116,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenu"], {
@@ -510,12 +521,12 @@ function Header() {
                                                     children: user.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 129,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                lineNumber: 92,
+                                                lineNumber: 128,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuContent"], {
@@ -529,12 +540,12 @@ function Header() {
                                                             children: "Dashboard"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                            lineNumber: 99,
+                                                            lineNumber: 142,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                        lineNumber: 98,
+                                                        lineNumber: 141,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$src$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuItem"], {
@@ -544,26 +555,26 @@ function Header() {
                                                                 className: "mr-2 h-4 w-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                                lineNumber: 102,
+                                                                lineNumber: 149,
                                                                 columnNumber: 21
                                                             }, this),
                                                             "Log out"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                        lineNumber: 101,
+                                                        lineNumber: 148,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                lineNumber: 97,
+                                                lineNumber: 137,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 127,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -580,7 +591,7 @@ function Header() {
                                                     className: "h-4 w-4 sm:mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 163,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -588,18 +599,18 @@ function Header() {
                                                     children: "Login"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 164,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                            lineNumber: 111,
+                                            lineNumber: 158,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                        lineNumber: 110,
+                                        lineNumber: 157,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -612,7 +623,7 @@ function Header() {
                                                     className: "h-4 w-4 sm:mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 169,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -620,18 +631,18 @@ function Header() {
                                                     children: "Register"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                                    lineNumber: 119,
+                                                    lineNumber: 170,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 168,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                        lineNumber: 116,
+                                        lineNumber: 167,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -646,30 +657,30 @@ function Header() {
                                     className: "h-5 w-5"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                    lineNumber: 131,
-                                    columnNumber: 27
+                                    lineNumber: 183,
+                                    columnNumber: 15
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$460$2e$0_react$40$19$2e$2$2e$4$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                     className: "h-5 w-5"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                    lineNumber: 131,
-                                    columnNumber: 55
+                                    lineNumber: 185,
+                                    columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                                lineNumber: 124,
+                                lineNumber: 175,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                        lineNumber: 80,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                lineNumber: 60,
+                lineNumber: 71,
                 columnNumber: 7
             }, this),
             mobileOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -682,7 +693,7 @@ function Header() {
                             children: item.label
                         }, item.href, false, {
                             fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                            lineNumber: 138,
+                            lineNumber: 193,
                             columnNumber: 13
                         }, this)),
                     user?.role === "landlord" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$arcain$2f$new$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -692,19 +703,19 @@ function Header() {
                         children: "Admin"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                        lineNumber: 151,
+                        lineNumber: 208,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-                lineNumber: 136,
+                lineNumber: 191,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/arcain/new/src/components/layout/Header.tsx",
-        lineNumber: 59,
+        lineNumber: 70,
         columnNumber: 5
     }, this);
 }

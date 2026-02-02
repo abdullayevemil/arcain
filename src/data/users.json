@@ -15,16 +15,16 @@
   },
   {
     "id": "3",
-    "name": "Sam Smith",
-    "email": "sam@student.com",
-    "password": "sam123",
+    "name": "Zakir Behbudov",
+    "email": "zakir@student.com",
+    "password": "zakir123",
     "role": "student"
   },
   {
     "id": "4",
-    "name": "Morgan Properties",
-    "email": "morgan@landlord.com",
-    "password": "morgan123",
+    "name": "Emil Abdullayev",
+    "email": "emil@landlord.com",
+    "password": "emil123",
     "role": "landlord"
   }
 ]
